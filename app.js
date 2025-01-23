@@ -20,7 +20,7 @@ let campo = document.querySelector(tag);//seleciona o elemento
 //função para mostrar as mesagens de inicio de jogo
 function exibirMensagemInicial(){
    exibirTextoNaTela('h1','Jogo do número secreto');
-   exibirTextoNaTela('p', 'Escolha um número entre 1 a 10');  
+   exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');  
 }
 
 exibirMensagemInicial();
