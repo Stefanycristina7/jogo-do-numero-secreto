@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10; // É o limite máximo para o número secreto.
+let numeroLimite = 100; // É o limite máximo para o número secreto.
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa =  1;
 // Função para evitar repetição de código ao inserir texto em elementos HTML
@@ -20,7 +20,7 @@ let campo = document.querySelector(tag);//seleciona o elemento
 //função para mostrar as mesagens de inicio de jogo
 function exibirMensagemInicial(){
    exibirTextoNaTela('h1','Jogo do número secreto');
-   exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');  
+   exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');  
 }
 
 exibirMensagemInicial();
