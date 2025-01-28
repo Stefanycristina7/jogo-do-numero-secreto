@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 50; // É o limite máximo para o número secreto.
+let numeroLimite = 30; // É o limite máximo para o número secreto.
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa =  1;
 // Função para evitar repetição de código ao inserir texto em elementos HTML
@@ -10,7 +10,7 @@ let campo = document.querySelector(tag);//seleciona o elemento
       //Vai pegar o texto e transformar ele em áudio.
    if ('speechSynthesis' in window) {
       let utterance = new SpeechSynthesisUtterance(texto);
-      utterance.lang = 'pt-BR'; //define o idioma
+      utterance.lan = 'pt-BR'; //define o idioma
       utterance.rate = 1.2; //define velocidade da fala
       window.speechSynthesis.speak(utterance); 
   } else {
@@ -20,7 +20,7 @@ let campo = document.querySelector(tag);//seleciona o elemento
 //função para mostrar as mesagens de inicio de jogo
 function exibirMensagemInicial(){
    exibirTextoNaTela('h1','Jogo do número secreto');
-   exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');  
+   exibirTextoNaTela('p', 'Escolha um número entre 1 e 30');  
 }
 
 exibirMensagemInicial();
