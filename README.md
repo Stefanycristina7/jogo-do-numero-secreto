@@ -8,7 +8,7 @@ Este é um projeto desenvolvido durante o meu curso de **Lógica de programaçã
 
 ✅ Acertou! O jogo informa que o número está correto.
 
-❌ Errou! O jogo dá uma dica, dizendo se o número sorteado é maior ou menor.
+❌ Errou! O jogo dá uma dica, dizendo se o número secreto é maior ou menor.
 
 Quando o usuário acerta, ele tem a opção de reiniciar o jogo, e um novo número é gerado.
 
