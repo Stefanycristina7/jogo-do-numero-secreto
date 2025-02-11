@@ -47,7 +47,7 @@ function verificarChute() {
    }
 }
 
-function gerarNumeroAleatorio(params) {
+function gerarNumeroAleatorio() {
   let numeroEscolhido = parseInt(Math.random()*numeroLimite+1);
   let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length; //aqui vai contar quantos numeros já foram armazenados e sorteados na lista, ela vai conta se ja atingiu o
   //numero maximo, e então limpar a lista se caso a lista atingiu o número máximo.
